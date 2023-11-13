@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  inset: 0;
+}
+
+:root {
+  /* fonts */
+  --bodyxs: Montserrat;
+  --font-bebas-neue: "Bebas Neue";
+  --font-league-spartan: "League Spartan";
+
+  /* font sizes */
+  --bodysm-size: 14px;
+  --bodyxs-size: 12px;
+  --h3-size: 32px;
+  --bodylg-size: 18px;
+  --bodymd-size: 16px;
+  --font-size-3xs: 10px;
+
+  /* Colors */
+  --white: #fff;
+  --primary-primary-600: #5a6d57;
+  --neutral-gray606060: #606060;
+  --neutral-gray868686: #868686;
+  --primary: #748c70;
+  --color-gray-100: #1e1e1e;
+  --neutral-gray0c0c0c: #0c0c0c;
+  --neutral-graydfdfdf: #dfdfdf;
+  --color-black: #000;
+  --color-olive: #909225;
+  --color-plum: #d0a5ea;
+  --color-lightskyblue: #7dc3eb;
+  --neutral-gray404040: #404040;
+  --color-peru: #b2743f;
+
+  /* Gaps */
+  --gap-9xs: 4px;
+  --gap-5xs: 8px;
+  --gap-12xs: 1px;
+  --gap-5xl: 24px;
+  --gap-base: 16px;
+  --gap-xs: 12px;
+  --gap-13xl: 32px;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-5xs: 8px;
+
+  /* Border radiuses */
+  --br-5xl: 24px;
+}

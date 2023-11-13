@@ -1,0 +1,23 @@
+.not-developed-yet {
+  position: absolute;
+  top: 36px;
+  left: 98px;
+  line-height: 140%;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: inline-block;
+  width: 309px;
+}
+.warniing {
+  position: relative;
+  background-color: red;
+  width: 504px;
+  height: 118px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: var(--h3-size);
+  color: var(--neutral-gray0c0c0c);
+  font-family: var(--bodyxs);
+}
